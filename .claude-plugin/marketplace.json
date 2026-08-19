@@ -1,0 +1,23 @@
+{
+  "name": "global-lib-skills",
+  "description": "S24DeFi's shared Claude Code skills — reusable workflows, not tied to any one repo.",
+  "owner": {
+    "name": "S24DeFi"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "public-release-prep",
+      "displayName": "Public Release Prep",
+      "source": "public-release-prep",
+      "description": "Audit a private git repo's full history (every branch, tag, and PR ref) for secrets and PII before making it public, then carry out the cleanup.",
+      "version": "0.1.0",
+      "author": {
+        "name": "S24DeFi"
+      },
+      "keywords": ["security", "git", "open-source", "release", "secrets", "pii"]
+    }
+  ]
+}

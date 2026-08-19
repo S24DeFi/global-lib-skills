@@ -1,0 +1,10 @@
+{
+  "name": "public-release-prep",
+  "displayName": "Public Release Prep",
+  "version": "0.1.0",
+  "description": "Audit a private git repo's full history (every branch, tag, and PR ref) for secrets and PII before making it public, then carry out the cleanup.",
+  "author": {
+    "name": "S24DeFi"
+  },
+  "defaultEnabled": true
+}
