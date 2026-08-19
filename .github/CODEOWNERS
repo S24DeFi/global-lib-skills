@@ -1,0 +1,9 @@
+# CODEOWNERS
+# These owners will be automatically requested for review on pull requests
+# that modify matching files, and (when branch protection requires code owner
+# review) their approval will be required before merging.
+#
+# See: https://docs.github.com/articles/about-codeowners
+
+# Default owner for everything in the repo, unless a later rule overrides it.
+* @adswebwork
